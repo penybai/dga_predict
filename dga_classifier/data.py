@@ -1,10 +1,10 @@
 """Generates data for train/test algorithms"""
 from datetime import datetime
-from StringIO import StringIO
-from urllib import urlopen
+from io import StringIO
+from urllib.request import urlopen
 from zipfile import ZipFile
 
-import cPickle as pickle
+import _pickle as pickle
 import os
 import random
 import tldextract
